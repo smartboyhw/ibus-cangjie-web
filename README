@@ -8,3 +8,7 @@ We bundle the 'bootstrap' Sphinx theme, to make it easier to rebuild the pages:
     https://github.com/ryan-roemer/sphinx-bootstrap-theme/
 
 Current version of the bundled 'bootstrap' theme is 0.1.3.
+
+To rebuild the website, just run:
+
+    $ make build
