@@ -92,6 +92,19 @@ quickly, and comfortably.
 Help
 ====
 
+Why are all the keys I input doubled?
+-------------------------------------
+
+This is most likely caused by a `known bug on 32 bits system`_.
+
+There is unfortunately no fix available at the moment. All help will be
+greatly appreciated.
+
+The bug doesn't affect 64 bits systems though, so if that's an option for you,
+we recommend you upgrade.
+
+.. _known bug on 32 bits system: https://bugzilla.gnome.org/show_bug.cgi?id=693121
+
 Why can't I find IBus Cangjie in the GNOME Settings?
 ----------------------------------------------------
 
