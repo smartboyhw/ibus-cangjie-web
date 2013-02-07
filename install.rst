@@ -13,9 +13,9 @@ packages.
 The instructions provided here will vary depending on your Operating System,
 so make sure you're reading the right one.
 
-.. note:: If your favourite Operating System is not listed here, but it
-          nevertheless provides an easy way to install IBus Cangjie, please
-          :ref:`let us know <talk-to-us>`.
+If your favourite Operating System is not listed below, but it nevertheless
+provides an easy way to install IBus Cangjie, please
+:ref:`let us know <talk-to-us>`.
 
 If we don't provide instructions for your Operating System, you can always
 refer to the last part and install :ref:`from the sources <sources>`.
