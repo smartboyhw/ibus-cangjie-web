@@ -76,6 +76,16 @@ terrible.
 .. _libcangjie: https://github.com/wanleung/libcangjie/
 .. _pycangjie: https://github.com/bochecha/pycangjie/
 
+Hack the website
+================
+
+Just like the code, this website is Free Software, `hosted at Github`_.
+
+If you notice any issue with it, or want to help make it better, send patches
+or pull requests.
+
+.. _hosted at Github: https://github.com/bochecha/ibus-cangjie-web/
+
 ----
 
 .. Sphinx doesn't want us to end on a transition, so here is a comment.
