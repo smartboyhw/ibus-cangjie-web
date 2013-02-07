@@ -6,6 +6,10 @@ Installing IBus Cangjie should be trivial. We want you to start using it as
 easily and quickly as possible, not to spend time battling with tarballs and
 packages.
 
+.. note:: Once you installed IBus Cangjie, you will need to restart IBus so it
+          finds the new engine. The easiest way to do this is to just reboot
+          your computer, or log out and then log back in.
+
 The instructions provided here will vary depending on your Operating System,
 so make sure you're reading the right one.
 
