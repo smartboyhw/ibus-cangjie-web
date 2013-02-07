@@ -100,6 +100,7 @@ html_theme = 'bootstrap'
 # documentation.
 html_theme_options = {
     'navbar_class': "navbar navbar-inverse",
+    'navbar_fixed_top': "false",
     'source_link_position': "footer",
     }
 
