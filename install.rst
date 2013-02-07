@@ -52,7 +52,83 @@ To install IBus Cangjie on Fedora, simply run the following commands as root::
 From the sources
 ================
 
-*TODO: write this up*
+The first thing to do is to get the source code, either by downloading the
+latest release tarball, or by cloning the Git repository.
+
+Build from a release tarball
+----------------------------
+
+.. note:: There are currently no stable release of IBus Cangjie, the sources
+          can only be obtained from Git.
+
+All release tarballs are available `in the same folder`_.
+
+We highly recommend you always use the latest release.
+
+IBus Cangjie is a regular Autotools project, so it should be possible to build
+it with the usual commands::
+
+    $ ./configure
+    $ make
+    # make install
+
+Make sure you read about the :ref:`build caveats <build-caveats>`.
+
+.. _in the same folder: http://ibus-cangjie.opensource.hk/releases/
+
+Build from a Git clone
+----------------------
+
+The first thing to do is to clone the Git repository::
+
+    $ git clone git://github.com/bochecha/ibus-cangjie
+
+Alternatively, if you forked IBus Cangjie on Github, then do::
+
+    $ git clone git@github.com:<your github nickname>/ibus-cangjie
+
+If you cloned your fork, we highly recomment you keep a reference on the
+central repository. You can do that with the following commands, from inside
+your clone::
+
+    $ git remote add upstream git://github.com/bochecha/ibus-cangjie
+    $ git fetch upstream
+
+This will help you fetch the latest changes we made, and rebase your work on
+top of it.
+
+Then, building is the usual sequence of commands for Autotools-based
+projects::
+
+    $ ./autogen.sh
+    $ make
+    # make install
+
+Make sure you read about the :ref:`build caveats <build-caveats>`.
+
+.. _build-caveats:
+
+Mind the caveats
+----------------
+
+By default, the Autotools will usually set the install prefix to
+``/usr/local``. However, IBus seems to only find engines if installed in the
+``/usr`` prefix.
+
+As such, we recommand you pass the appropriate option to either the
+``configure`` or ``autogen.sh`` script, as follows, either::
+
+    $ ./configure --prefix=/usr
+
+or::
+
+    $ ./autogen.sh --prefix=/usr
+
+This means IBus Cangjie will be installed in the system prefix, which is
+normally the territory of your package manager (e.g ``yum`` or ``apt-get``).
+
+That's not ideal, but it is necessary until we figure out what the problem is,
+and how to get IBus to load engines from ``/usr/local``.
 
 ----
 
