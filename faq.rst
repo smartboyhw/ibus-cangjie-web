@@ -3,7 +3,7 @@ Frequently Asked Questions
 
 We hope you can find the answers you need on this page.
 
-If not, just come and :ref:`ask us <communicate>`.
+If not, just come and :ref:`ask us <talk-to-us>`.
 
 .. note:: You can use the "**Page**" button in the top banner to quickly
           review each question.

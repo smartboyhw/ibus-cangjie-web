@@ -14,7 +14,7 @@ IBus Cangjie is providing :doc:`a great user experience <discover>` already,
 but if you find a bug, be sure to `report it`_.
 
 If you have a question, be sure to check our :doc:`FAQ <faq>`. If you can't
-find the answer, just :ref:`ask us <communicate>`!
+find the answer, just :ref:`ask us <talk-to-us>`!
 
 .. toctree::
    :hidden:
