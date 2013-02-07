@@ -1,5 +1,6 @@
+**************************
 Frequently Asked Questions
-==========================
+**************************
 
 We hope you can find the answers you need on this page.
 
@@ -9,6 +10,9 @@ If not, just come and :ref:`ask us <talk-to-us>`.
           review each question.
 
 ----
+
+General questions about IBus Cangjie
+====================================
 
 Who is IBus Cangjie designed for?
 ---------------------------------
@@ -84,6 +88,9 @@ quickly, and comfortably.
 .. _ibus-table: https://github.com/kaio/ibus-table/
 .. _Chinese languages: https://github.com/definite/ibus-table-chinese
 .. _`emoticons or the International Phonetic Alphabet`: https://github.com/moebiuscurve/ibus-table-others
+
+Help
+====
 
 Why can't I find IBus Cangjie in the GNOME Settings?
 ----------------------------------------------------
