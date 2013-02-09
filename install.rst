@@ -115,6 +115,21 @@ Make sure you read about the :ref:`build caveats <build-caveats>`.
 Mind the caveats
 ----------------
 
+Dependencies
+............
+
+In order to install and use IBus Cangjie, you will need the following to be
+installed on your system first:
+
+* `Python <http://python.org>`_ >= 3.2
+* `IBus <https://code.google.com/p/ibus/>`_ >= 1.4.1
+* `pygobject <https://live.gnome.org/PyGObject>`_ built for Python 3
+* `licangjie <https://github.com/wanleung/libcangjie>`_
+* `pycangjie <https://github.com/bochecha/pycangjie>`_
+
+Install prefix
+..............
+
 By default, the Autotools will usually set the install prefix to
 ``/usr/local``. However, IBus seems to only find engines if installed in the
 ``/usr`` prefix.
