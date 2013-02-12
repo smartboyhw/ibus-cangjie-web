@@ -1,7 +1,7 @@
 Features
 ========
 
-*TODO: write this up*
+.. note:: Nothing here for now, will come later...
 
 ----
 
