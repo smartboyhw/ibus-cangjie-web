@@ -34,7 +34,7 @@ Arch Linux
 
 To install IBus Cangjie on Arch Linux, simply run the following command as root::
 
-    # yaourt -S ibus-cangjie
+    # yaourt -S ibus-cangjie-git
 
 .. _yaourt: https://wiki.archlinux.org/index.php/Yaourt
 
