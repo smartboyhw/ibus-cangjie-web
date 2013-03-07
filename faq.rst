@@ -97,8 +97,9 @@ Why are all the keys I input doubled?
 
 This is most likely caused by a `known bug on 32 bits system`_.
 
-There is unfortunately no fix available at the moment. All help will be
-greatly appreciated.
+It is fixed in ``pygobject`` >= 3.7.91, so if your distribution has an older
+version, ask them to upgrade or backport the patch committed in the upstream
+bug.
 
 The bug doesn't affect 64 bits systems though, so if that's an option for you,
 we recommend you upgrade.
