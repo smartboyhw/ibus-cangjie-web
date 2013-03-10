@@ -76,6 +76,16 @@ terrible.
 .. _libcangjie: https://github.com/wanleung/libcangjie/
 .. _pycangjie: https://github.com/bochecha/pycangjie/
 
+Translate
+=========
+
+We use `Transifex`_ for our translations.
+
+If you want to `translate IBus Cangjie in your language`_, it all happens there.
+
+.. _Transifex: https://www.transifex.com
+.. _translate IBus Cangjie in your language: https://www.transifex.com/projects/p/ibus-cangjie/
+
 Hack the website
 ================
 
