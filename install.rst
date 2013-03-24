@@ -67,6 +67,12 @@ installed on your system first:
 * `pygobject <https://live.gnome.org/PyGObject>`_ built for Python 3
 * `libcangjie <https://github.com/wanleung/libcangjie>`_
 * `pycangjie <https://github.com/bochecha/pycangjie>`_
+* `pycanberra <https://github.com/psykoyiko/pycanberra>`_ (optional)
+ * This is only needed to give some feedback to the user by playing an error
+   sound on incorrect inputs. If you don't have this installed, then IBus
+   Cangjie just won't play any sound.
+ * Please note that we need a Python 3 version of pycanberra, see this
+   (yet-unmerged) `pull request <https://github.com/psykoyiko/pycanberra/pull/2>`_.
 
 Build from a release tarball
 ----------------------------
