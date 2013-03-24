@@ -59,6 +59,15 @@ From the sources
 The first thing to do is to get the source code, either by downloading the
 latest release tarball, or by cloning the Git repository.
 
+In order to install and use IBus Cangjie, you will need the following to be
+installed on your system first:
+
+* `Python <http://python.org>`_ >= 3.2
+* `IBus <https://code.google.com/p/ibus/>`_ >= 1.4.1
+* `pygobject <https://live.gnome.org/PyGObject>`_ built for Python 3
+* `licangjie <https://github.com/wanleung/libcangjie>`_
+* `pycangjie <https://github.com/bochecha/pycangjie>`_
+
 Build from a release tarball
 ----------------------------
 
@@ -114,18 +123,6 @@ Make sure you read about the :ref:`build caveats <build-caveats>`.
 
 Mind the caveats
 ----------------
-
-Dependencies
-............
-
-In order to install and use IBus Cangjie, you will need the following to be
-installed on your system first:
-
-* `Python <http://python.org>`_ >= 3.2
-* `IBus <https://code.google.com/p/ibus/>`_ >= 1.4.1
-* `pygobject <https://live.gnome.org/PyGObject>`_ built for Python 3
-* `licangjie <https://github.com/wanleung/libcangjie>`_
-* `pycangjie <https://github.com/bochecha/pycangjie>`_
 
 Install prefix
 ..............
