@@ -97,12 +97,13 @@ Why are all the keys I input doubled?
 
 This is most likely caused by a `known bug on 32 bits system`_.
 
-It is fixed in ``pygobject`` >= 3.7.91, so if your distribution has an older
-version, ask them to upgrade or backport the patch committed in the upstream
-bug.
+It is fixed in ``pygobject`` >= 3.7.91, but as many distributions still ship
+an older version, we work around the bug in IBus Cangjie.
 
-The bug doesn't affect 64 bits systems though, so if that's an option for you,
-we recommend you upgrade.
+Make sure you are running a recent enough version of IBus Cangjie, as the
+workaround was introduced only recently in Git.
+
+The first stable release of IBus Cangjie will include the workaround.
 
 .. _known bug on 32 bits system: https://bugzilla.gnome.org/show_bug.cgi?id=693121
 
