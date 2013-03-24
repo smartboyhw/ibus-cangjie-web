@@ -65,7 +65,7 @@ installed on your system first:
 * `Python <http://python.org>`_ >= 3.2
 * `IBus <https://code.google.com/p/ibus/>`_ >= 1.4.1
 * `pygobject <https://live.gnome.org/PyGObject>`_ built for Python 3
-* `licangjie <https://github.com/wanleung/libcangjie>`_
+* `libcangjie <https://github.com/wanleung/libcangjie>`_
 * `pycangjie <https://github.com/bochecha/pycangjie>`_
 
 Build from a release tarball
