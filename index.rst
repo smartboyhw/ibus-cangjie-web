@@ -31,7 +31,3 @@ find the answer, just :ref:`ask us <talk-to-us>`!
 .. _Quick: https://en.wikipedia.org/wiki/Simplified_Cangjie
 .. _report it: https://github.com/bochecha/ibus-cangjie/issues/new
 .. _GNU LGPLv3+ license: http://www.gnu.org/licenses/lgpl.html
-
-----
-
-.. Sphinx doesn't want us to end on a transition, so here is a comment.

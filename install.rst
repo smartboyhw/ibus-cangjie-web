@@ -158,7 +158,3 @@ normally the territory of your package manager (e.g ``yum`` or ``apt-get``).
 
 That's not ideal, but it is necessary until we figure out what the problem is,
 and how to get IBus to load engines from ``/usr/local``.
-
-----
-
-.. Sphinx doesn't want us to end on a transition, so here is a comment.

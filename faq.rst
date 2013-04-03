@@ -157,7 +157,3 @@ The half-width characters option is such a property, and that means it can't
 be used on GNOME 3.6.
 
 Fortunately, this is fixed in GNOME 3.8, so we recommend you upgrade.
-
-----
-
-.. Sphinx doesn't want us to end on a transition, so here is a comment.
