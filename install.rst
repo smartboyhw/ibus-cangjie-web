@@ -40,6 +40,8 @@ To install IBus Cangjie on Arch Linux, simply run the following command as root:
 
 .. _yaourt: https://wiki.archlinux.org/index.php/Yaourt
 
+----
+
 Fedora
 ======
 
@@ -54,6 +56,8 @@ To install IBus Cangjie on Fedora, simply run the following commands as root::
     # yum install ibus-cangjie
 
 .. _sources:
+
+----
 
 From the sources
 ================

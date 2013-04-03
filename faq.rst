@@ -89,6 +89,8 @@ quickly, and comfortably.
 .. _Chinese languages: https://github.com/definite/ibus-table-chinese
 .. _`emoticons or the International Phonetic Alphabet`: https://github.com/moebiuscurve/ibus-table-others
 
+----
+
 Help
 ====
 

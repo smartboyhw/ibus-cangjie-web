@@ -26,6 +26,8 @@ We are available:
 
 .. _the Google Group for the Hong Kong LUG: https://groups.google.com/forum/?fromgroups#!forum/hklug
 
+----
+
 Report bugs
 ===========
 
@@ -47,6 +49,8 @@ need to know what we're doing right and where we can improve!
 
 .. _our bugs: https://github.com/bochecha/ibus-cangjie/issues?state=open
 .. _open a new ticket: https://github.com/bochecha/ibus-cangjie/issues/new
+
+----
 
 Hack the code
 =============
@@ -76,6 +80,8 @@ terrible.
 .. _libcangjie: https://github.com/wanleung/libcangjie/
 .. _pycangjie: https://github.com/bochecha/pycangjie/
 
+----
+
 Translate
 =========
 
@@ -85,6 +91,8 @@ If you want to `translate IBus Cangjie in your language`_, it all happens there.
 
 .. _Transifex: https://www.transifex.com
 .. _translate IBus Cangjie in your language: https://www.transifex.com/projects/p/ibus-cangjie/
+
+----
 
 Hack the website
 ================
