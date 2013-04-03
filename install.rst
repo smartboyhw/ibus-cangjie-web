@@ -2,6 +2,8 @@
 Installing
 **********
 
+.. highlight:: none
+
 Installing IBus Cangjie should be trivial. We want you to start using it as
 easily and quickly as possible, not to spend time battling with tarballs and
 packages.
