@@ -7,7 +7,7 @@ The sources of the website itself are available under the CC-By license.
 We bundle the 'bootstrap' Sphinx theme, to make it easier to rebuild the pages:
     https://github.com/ryan-roemer/sphinx-bootstrap-theme/
 
-Current version of the bundled 'bootstrap' theme is 0.1.3.
+Current version of the bundled 'bootstrap' theme is 0.2.0.
 
 To rebuild the website, just run:
 

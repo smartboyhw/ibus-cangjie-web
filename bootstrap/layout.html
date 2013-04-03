@@ -1,6 +1,27 @@
 {% extends "basic/layout.html" %}
-{% set script_files = script_files + ['_static/js/bootstrap-2.2.1.min.js', '_static/bootstrap-sphinx.js'] %}
-{% set css_files = ['_static/css/bootstrap-2.2.1.min.css', '_static/bootstrap-sphinx.css', '_static/css/bootstrap-responsive-2.2.1.min.css'] + css_files %}
+
+  {% set script_files = script_files + [
+    '_static/js/jquery-1.9.1.min.js',
+    '_static/js/jquery-fix.js',
+    '_static/bootstrap-2.3.1/js/bootstrap.min.js',
+    '_static/bootstrap-sphinx.js'
+  ]
+%}
+{% set css_files = [
+    '_static/bootstrap-2.3.1/css/bootstrap.min.css'
+  ] + css_files
+%}
+{% if theme_bootswatch_theme %}
+{% set css_files = css_files + [
+    'http://netdna.bootstrapcdn.com/bootswatch/2.3.1/' + theme_bootswatch_theme + '/bootstrap.min.css'
+  ]
+%}
+{% endif %}
+{% set css_files = css_files + [
+    '_static/bootstrap-sphinx.css',
+    '_static/bootstrap-2.3.1/css/bootstrap-responsive.min.css'
+  ]
+%}
 
 {%- block doctype -%}
 <!DOCTYPE html>
@@ -17,7 +38,7 @@
         <span class="icon-bar"></span>
       </button>
 
-      <a class="brand" href="{{ pathto(master_doc) }}">{{ project|e }}</a>
+      <a class="brand" href="{{ pathto(master_doc) }}">{% if theme_navbar_title -%}{{ theme_navbar_title|e }}{%- else -%}{{ project|e }}{%- endif -%}</a>
       <span class="navbar-text pull-left"><b>{{ version|e }}</b></span>
 
       <div class="nav-collapse">
@@ -93,4 +114,3 @@
   </div>
 </footer>
 {%- endblock %}
-
