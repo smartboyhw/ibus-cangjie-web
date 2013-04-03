@@ -1,6 +1,6 @@
 body > .container {
     /* The default is way too wide */
-    width: 75% !important;
+    max-width: 960px !important;
 
     /* But with so much whitespace around now, we need borders */
     border-left: 1px solid #CCCCCC;
@@ -36,7 +36,7 @@ pre {
 
 /* Make the footer fit with the rest */
 .footer {
-    width: 75% !important;
+    max-width: 960px !important;
     margin-left: auto;
     margin-right: auto;
 }
