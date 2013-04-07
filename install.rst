@@ -55,6 +55,17 @@ To install IBus Cangjie on Fedora, simply run the following commands as root::
     # wget http://repos.fedorapeople.org/repos/bochecha/ibus-cangjie/fedora-ibus-cangjie.repo -O /etc/yum.repos.d/fedora-ibus-cangjie.repo
     # yum install ibus-cangjie
 
+----
+
+Ubuntu
+======
+
+.. note:: IBus Cangjie is currently only available in Ubuntu >= 13.04.
+
+To install IBus Cangjie on Ubuntu, just run the following command::
+
+    $ sudo apt-get install ibus-cangjie
+
 .. _sources:
 
 ----
