@@ -111,7 +111,7 @@ it with the usual commands::
 
 Make sure you read about the :ref:`build caveats <build-caveats>`.
 
-.. _in the same folder: http://ibus-cangjie.opensource.hk/releases/
+.. _in the same folder: http://ibus-cangjie.opensource.hk/downloads/ibus-cangjie/
 
 Build from a Git clone
 ----------------------
