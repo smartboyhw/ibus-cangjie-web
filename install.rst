@@ -95,9 +95,6 @@ installed on your system first:
 Build from a release tarball
 ----------------------------
 
-.. note:: There are currently no stable release of IBus Cangjie, the sources
-          can only be obtained from Git.
-
 All release tarballs are available `in the same folder`_.
 
 We highly recommend you always use the latest release.
