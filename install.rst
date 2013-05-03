@@ -30,13 +30,9 @@ Arch Linux
 .. note:: IBus Cangjie is not in one of the main Arch Linux repositories, but
           only in AUR. As such, you will first need to install `yaourt`_.
 
-.. warning:: This AUR package will effectively build the IBus Cangjie sources
-             straight from the development branch of the Git repository.
-             Proceed with caution.
-
 To install IBus Cangjie on Arch Linux, simply run the following command as root::
 
-    # yaourt -S ibus-cangjie-git
+    # yaourt -S ibus-cangjie
 
 .. _yaourt: https://wiki.archlinux.org/index.php/Yaourt
 
