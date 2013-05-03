@@ -50,7 +50,7 @@ Fedora
              developers, so it should be relatively safe. Nevertheless,
              proceed with caution.
 
-To install IBus Cangjie on Fedora, simply run the following commands as root::
+To install IBus Cangjie on Fedora 18 or 19, simply run the following commands as root::
 
     # wget http://repos.fedorapeople.org/repos/bochecha/ibus-cangjie/fedora-ibus-cangjie.repo -O /etc/yum.repos.d/fedora-ibus-cangjie.repo
     # yum install ibus-cangjie
