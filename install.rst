@@ -41,14 +41,8 @@ To install IBus Cangjie on Arch Linux, simply run the following command as root:
 Fedora
 ======
 
-.. warning:: IBus Cangjie is not in Fedora yet, but only in a third-party
-             repository. This repository is maintained by one of the core
-             developers, so it should be relatively safe. Nevertheless,
-             proceed with caution.
-
 To install IBus Cangjie on Fedora 18 or 19, simply run the following commands as root::
 
-    # wget http://repos.fedorapeople.org/repos/bochecha/ibus-cangjie/fedora-ibus-cangjie.repo -O /etc/yum.repos.d/fedora-ibus-cangjie.repo
     # yum install ibus-cangjie
 
 ----
