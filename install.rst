@@ -56,6 +56,13 @@ To install IBus Cangjie on Ubuntu, just run the following command::
 
     $ sudo apt-get install ibus-cangjie
 
+Due to `a bug with the Ubuntu package`_, you also need to install the
+following manually at the moment::
+
+    $ sudo apt-get install gir1.2-ibus-1.0
+
+.. _a bug with the Ubuntu package: https://bugs.launchpad.net/ubuntu/+source/ibus-cangjie/+bug/1189085
+
 .. _sources:
 
 ----
