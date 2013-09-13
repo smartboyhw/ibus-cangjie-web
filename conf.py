@@ -97,6 +97,15 @@ html_theme = 'bootstrap'
 # further.  For a list of options available for each theme, see the
 # documentation.
 html_theme_options = {
+    'navbar_links': [
+        ("Discover", "discover"),
+        ("Install", "install"),
+        ("Get Involved", "get_involved"),
+        ("FAQ", "faq"),
+    ],
+    'navbar_pagenav': False,
+    'globaltoc_depth': 2,
+    'navbar_sidebarrel': False,
     'navbar_class': "navbar navbar-inverse",
     'navbar_fixed_top': "false",
     'source_link_position': "footer",
