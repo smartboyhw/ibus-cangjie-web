@@ -36,6 +36,7 @@ body > .container {
 .admonition {
     width: 70%;
     margin-left: 5%;
+    padding: 10px 10px 15px 15px !important;
 }
 
 /* Make the code blocks look nicer */
