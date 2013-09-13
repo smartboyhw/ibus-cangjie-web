@@ -8,8 +8,8 @@ If not, just come and :ref:`ask us <talk-to-us>`.
 
 ----
 
-General questions about IBus Cangjie
-====================================
+General questions
+=================
 
 Who is IBus Cangjie designed for?
 ---------------------------------
