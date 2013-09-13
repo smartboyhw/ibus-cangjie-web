@@ -1,35 +1,12 @@
-.navbar, .container, .footer {
-    /* The default is way too wide */
-    max-width: 1024px !important;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.navbar {
-    margin-bottom: 0;
-}
-
 /* There's no option to remove this :( */
 .globaltoc-container {
     display: None !important;
 }
 
-body > .container {
-    /* But with so much whitespace around now, we need borders */
-    border-left: 1px solid #CCCCCC;
-    border-right: 1px solid #CCCCCC;
-
-    /* The footer is too close to the content by default */
-    padding-bottom: 2em;
-
-    /* Get it closer to the navbar */
-    margin-top: -5px;
-}
-
 /* A bit of space around... */
-.section {
-    margin-left: 3%;
-    margin-right: 3%;
+.container > div > div > .section {
+    padding: 0.8em 3% 2em 3%;
+    margin: 0;
 }
 
 /* These look much nicer if they are less wide */
@@ -45,9 +22,3 @@ body > .container {
     margin-left: 2.5%;
 }
 
-/* Make the footer fit with the rest */
-.footer > .container {
-    width: 100% !important;
-    margin-left: auto;
-    margin-right: auto;
-}

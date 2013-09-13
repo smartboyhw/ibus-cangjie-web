@@ -107,7 +107,6 @@ html_theme_options = {
     'globaltoc_depth': 2,
     'navbar_sidebarrel': False,
     'navbar_class': "navbar navbar-inverse",
-    'navbar_fixed_top': "false",
     'source_link_position': "footer",
     }
 
