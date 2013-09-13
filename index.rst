@@ -7,7 +7,7 @@ Traditional Chinese.
 
 We strongly believe in the value of sharing our work with the rest of the
 world, which is why IBus Cangjie is Free Software, under the
-`GNU LGPLv3+ license`_.
+`GNU GPLv3+ license`_.
 
 To make it as easy as possible to start using IBus Cangjie, we compiled the
 installation instructions on :doc:`a dedicated page <install>`.
@@ -30,4 +30,4 @@ find the answer, just :ref:`ask us <talk-to-us>`!
 .. _Cangjie: https://en.wikipedia.org/wiki/Cangjie_input_method
 .. _Quick: https://en.wikipedia.org/wiki/Simplified_Cangjie
 .. _report it: https://github.com/bochecha/ibus-cangjie/issues/new
-.. _GNU LGPLv3+ license: http://www.gnu.org/licenses/lgpl.html
+.. _GNU GPLv3+ license: http://www.gnu.org/licenses/gpl.html
