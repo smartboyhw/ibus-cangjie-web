@@ -71,7 +71,7 @@ Peter Hutterer's great post about `writing good commit messages`_.
 
 Basic Python 3 skills should be all you need to start hacking on IBus Cangjie.
 However, some things might need to be done in `libcangjie`_, the underlying
-library providing the Cangjie mappingi, or `pycangjie`_, its Python bindings.
+library providing the Cangjie mapping, or `pycangjie`_, its Python bindings.
 These will require some C++ and Cython knowledge respectively, but nothing
 terrible.
 
