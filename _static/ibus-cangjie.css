@@ -9,6 +9,11 @@
     margin-bottom: 0;
 }
 
+/* There's no option to remove this :( */
+.globaltoc-container {
+    display: None !important;
+}
+
 body > .container {
     /* But with so much whitespace around now, we need borders */
     border-left: 1px solid #CCCCCC;
