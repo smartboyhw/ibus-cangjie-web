@@ -63,6 +63,20 @@ following manually at the moment::
 
 .. _a bug with the Ubuntu package: https://bugs.launchpad.net/ubuntu/+source/ibus-cangjie/+bug/1189085
 
+----
+
+Ubuntu 12.04
+============
+
+Haggen So is providing `a PPA for Ubuntu 12.04 users`_. You can run the following
+commands to install IBus Cangjie::
+
+    $ sudo add-apt-repository ppa:haggenso/ibus-cangjie-ppa
+    $ sudo apt-get update
+    $ sudo apt-get install ibus-cangjie
+
+.. _a PPA for Ubuntu 12.04 users: https://launchpad.net/~haggenso/+archive/ibus-cangjie-ppa
+
 .. _sources:
 
 ----
