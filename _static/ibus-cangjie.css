@@ -12,7 +12,7 @@
 /* These look much nicer if they are less wide */
 .admonition {
     width: 70%;
-    margin-left: 5%;
+    margin: 1em 0 1em 5% !important;
     padding: 10px 10px 15px 15px !important;
 }
 
